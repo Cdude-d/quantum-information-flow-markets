@@ -1,0 +1,44 @@
+{
+  "universe_eod": [
+    "SPY",
+    "QQQ",
+    "IWM"
+  ],
+  "universe_eow": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "META",
+    "GOOGL",
+    "TSLA",
+    "AMD",
+    "NFLX"
+  ],
+  "risk_free_rate": 0.04,
+  "model_vol_blend": 0.5,
+  "target_short_delta": 0.18,
+  "target_long_delta": 0.38,
+  "spread_width_pct": 0.008,
+  "min_open_interest_or_volume": 100,
+  "max_bid_ask_spread_pct": 0.18,
+  "min_leg_mid": 0.05,
+  "min_credit_to_width": 0.18,
+  "max_debit_to_width": 0.65,
+  "top_n_per_mode": 4,
+  "skip_earnings_before_expiry": true,
+  "account_size": null,
+  "risk_per_trade_pct": 1.0,
+  "custom_event_dates": [],
+  "bias_weights": {
+    "trend": 0.4,
+    "meanrev": 0.3,
+    "momentum": 0.3
+  },
+  "report_dir": "reports",
+  "data_dir": "data"
+}

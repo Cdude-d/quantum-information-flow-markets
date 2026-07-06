@@ -1,0 +1,27 @@
+# --- Secrets — never commit ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- Licensed / personal data — must NOT be redistributed ---
+# Databento (OPRA) and WRDS data are license-restricted; live trade logs are personal.
+data/
+backtest/data/
+reports/
+
+# --- Thesis / documents (not ours to publish / not portfolio material) ---
+*.pdf
+
+# --- Python environment & caches ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
