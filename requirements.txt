@@ -3,3 +3,11 @@ pandas>=2.0
 numpy>=1.26
 scipy>=1.11
 tzdata>=2024.1
+
+# Paid / licensed data (research/ and backtest/ scripts that need your own credentials)
+databento>=0.40
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# Quantum factor model (research/quantum_factor_model.py, quantum_robustness.py) — CPU build is fine
+torch>=2.0
