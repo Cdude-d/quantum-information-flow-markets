@@ -20,6 +20,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# --- Local tooling output ---
+graphify-out/
+
 # --- OS / editor ---
 .DS_Store
 Thumbs.db
